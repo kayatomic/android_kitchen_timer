@@ -72,6 +72,9 @@ public class MainActivity extends AppCompatActivity {
                 }
             };
             timer.start();
+            v = (TextView) findViewById(R.id.temp1);
+
+
         }
     }
 
