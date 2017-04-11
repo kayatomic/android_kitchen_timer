@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/KitchenTimer.iml" filepath="$PROJECT_DIR$/KitchenTimer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/hw1_kitchen_timer.iml" filepath="$PROJECT_DIR$/hw1_kitchen_timer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kitchen_timer.iml" filepath="$PROJECT_DIR$/kitchen_timer.iml" />
     </modules>
   </component>
 </project>

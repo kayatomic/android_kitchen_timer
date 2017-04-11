@@ -89,10 +89,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="34dp"
-        android:onClick="onClickStop"
+        android:onClick="setTime"
         android:text=""
-        app:layout_constraintTop_toBottomOf="@+id/button_start"
         app:layout_constraintRight_toLeftOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button_start"
         tools:layout_constraintTop_creator="1" />
 
     <Button
@@ -100,10 +100,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="34dp"
-        android:onClick="onClickStop"
+        android:onClick="setTime"
         android:text=""
-        app:layout_constraintTop_toBottomOf="@+id/button_stop"
         app:layout_constraintRight_toRightOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button_stop"
         tools:layout_constraintTop_creator="1" />
 
     <Button
@@ -111,7 +111,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="34dp"
-        android:onClick="onClickStop"
+        android:onClick="setTime"
         android:text=""
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_stop"
