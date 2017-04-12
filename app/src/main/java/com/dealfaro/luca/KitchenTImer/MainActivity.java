@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
             if (clicked){
                 if (current == 3) current = 0; // counter cycles thru the 3 recent time buttons
                 TextView vee = (TextView) findViewById(buttonIds[current]);
-                Log.d(LOG_TAG, "isIdentical? " + isIdentical(seconds));
+                //Log.d(LOG_TAG, "isIdentical? " + isIdentical(seconds));
                 if (!isIdentical(seconds)) { // if time is not identical
                     vee.setText(TimeNice(seconds));
                     current++;

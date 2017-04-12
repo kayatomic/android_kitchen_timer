@@ -76,7 +76,7 @@
         android:id="@+id/button_stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="15dp"
         android:onClick="onClickStop"
         android:text="Stop"
         app:layout_constraintLeft_toRightOf="@+id/button_start"
@@ -88,34 +88,36 @@
         android:id="@+id/temp1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
         android:onClick="setTime"
         android:text=""
-        app:layout_constraintRight_toLeftOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button_start"
-        tools:layout_constraintTop_creator="1" />
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/temp2"
+        app:layout_constraintRight_toLeftOf="@+id/temp2"
+        android:layout_marginRight="20dp" />
 
     <Button
         android:id="@+id/temp2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
         android:onClick="setTime"
         android:text=""
-        app:layout_constraintRight_toRightOf="@+id/button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_stop"
-        tools:layout_constraintTop_creator="1" />
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginTop="15dp" />
 
     <Button
         android:id="@+id/temp3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
         android:onClick="setTime"
         android:text=""
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_stop"
-        tools:layout_constraintTop_creator="1" />
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/temp2"
+        app:layout_constraintLeft_toRightOf="@+id/temp2"
+        android:layout_marginLeft="20dp" />
 
 
 </android.support.constraint.ConstraintLayout>
